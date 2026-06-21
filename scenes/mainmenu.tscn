@@ -1,0 +1,204 @@
+[gd_scene format=3 uid="uid://cplvkhgdb2kn"]
+
+[ext_resource type="Texture2D" uid="uid://cgb7oleik7on6" path="res://sprites/Dead City Parallax BG [Free]/1920X1080/Ephemeral/Ephemeral_0.png" id="1_7yvfd"]
+[ext_resource type="Script" uid="uid://dwitmr0n4ai0r" path="res://scripts/mainmenu.gd" id="1_dfy5j"]
+[ext_resource type="Texture2D" uid="uid://jgc5bea8rfif" path="res://sprites/Dead City Parallax BG [Free]/1920X1080/Ephemeral/Ephemeral_1.png" id="2_dfy5j"]
+[ext_resource type="Texture2D" uid="uid://ciwcxpr0vusc5" path="res://sprites/Dead City Parallax BG [Free]/1920X1080/Ephemeral/Ephemeral_2.png" id="3_85riq"]
+[ext_resource type="Texture2D" uid="uid://djjytxgu5i2qu" path="res://sprites/Dead City Parallax BG [Free]/1920X1080/Ephemeral/Ephemeral_3.png" id="4_wf3n4"]
+[ext_resource type="Texture2D" uid="uid://c7sxgxfiibqdd" path="res://sprites/Dead City Parallax BG [Free]/1920X1080/Ephemeral/Ephemeral_4.png" id="5_h73c4"]
+[ext_resource type="Texture2D" uid="uid://bjsb7fekov4bm" path="res://sprites/Dead City Parallax BG [Free]/1920X1080/Ephemeral/Ephemeral_5.png" id="6_uui5l"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_7q3kq"]
+bg_color = Color(1, 1, 1, 1)
+corner_radius_top_left = 16
+corner_radius_top_right = 16
+corner_radius_bottom_right = 16
+corner_radius_bottom_left = 16
+shadow_size = 8
+shadow_offset = Vector2(0, 3.41)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_dfy5j"]
+bg_color = Color(1, 1, 1, 1)
+corner_radius_top_left = 16
+corner_radius_top_right = 16
+corner_radius_bottom_right = 16
+corner_radius_bottom_left = 16
+shadow_size = 8
+shadow_offset = Vector2(0, 3.41)
+
+[node name="Mainmenu" type="Control" unique_id=2104223104]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_dfy5j")
+
+[node name="Parallax2D" type="Parallax2D" parent="." unique_id=10244094]
+scroll_scale = Vector2(0, 0)
+repeat_size = Vector2(1920, 0)
+
+[node name="Sprite2D" type="Sprite2D" parent="Parallax2D" unique_id=1643716020]
+position = Vector2(0, -65.00371)
+scale = Vector2(1, 0.7537037)
+texture = ExtResource("1_7yvfd")
+centered = false
+offset = Vector2(0, -134)
+
+[node name="Parallax2D2" type="Parallax2D" parent="." unique_id=1911480009]
+scroll_scale = Vector2(0, 0)
+
+[node name="Sprite2D" type="Sprite2D" parent="Parallax2D2" unique_id=1184926556]
+position = Vector2(-448, -8.944443)
+scale = Vector2(1, 0.6944444)
+texture = ExtResource("2_dfy5j")
+centered = false
+offset = Vector2(0, -134)
+
+[node name="Parallax2D3" type="Parallax2D" parent="." unique_id=719153313]
+scroll_scale = Vector2(0.25, 0.25)
+repeat_size = Vector2(1920, 0)
+autoscroll = Vector2(-25, 0)
+
+[node name="Sprite2D" type="Sprite2D" parent="Parallax2D3" unique_id=261500967]
+position = Vector2(0, -65.00371)
+scale = Vector2(1, 0.7537037)
+texture = ExtResource("3_85riq")
+centered = false
+offset = Vector2(0, -134)
+
+[node name="Parallax2D4" type="Parallax2D" parent="." unique_id=904968843]
+scroll_scale = Vector2(0.5, 0.5)
+repeat_size = Vector2(1920, 0)
+autoscroll = Vector2(-45, 0)
+
+[node name="Sprite2D" type="Sprite2D" parent="Parallax2D4" unique_id=1536683830]
+position = Vector2(0, -65.00371)
+scale = Vector2(1, 0.7537037)
+texture = ExtResource("4_wf3n4")
+centered = false
+offset = Vector2(0, -134)
+
+[node name="Parallax2D5" type="Parallax2D" parent="." unique_id=2005270325]
+scroll_scale = Vector2(0.75, 0.75)
+repeat_size = Vector2(1920, 0)
+autoscroll = Vector2(-65, 0)
+
+[node name="Sprite2D" type="Sprite2D" parent="Parallax2D5" unique_id=489106556]
+position = Vector2(-8, -65.00371)
+scale = Vector2(1, 0.7537037)
+texture = ExtResource("5_h73c4")
+centered = false
+offset = Vector2(0, -134)
+
+[node name="Parallax2D6" type="Parallax2D" parent="." unique_id=1205711897]
+repeat_size = Vector2(1920, 0)
+autoscroll = Vector2(-85, 0)
+
+[node name="Sprite2D" type="Sprite2D" parent="Parallax2D6" unique_id=457389269]
+position = Vector2(0, -65.00371)
+scale = Vector2(1, 0.7537037)
+texture = ExtResource("6_uui5l")
+centered = false
+offset = Vector2(0, -134)
+
+[node name="VBoxContainer" type="VBoxContainer" parent="." unique_id=1705076717]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -176.0
+offset_top = -116.0
+offset_right = 144.0
+offset_bottom = 108.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="start" type="Button" parent="VBoxContainer" unique_id=1984472048]
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 35
+theme_override_styles/normal = SubResource("StyleBoxFlat_7q3kq")
+text = "Start Game
+"
+
+[node name="controls" type="Button" parent="VBoxContainer" unique_id=2027178058]
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 35
+theme_override_styles/normal = SubResource("StyleBoxFlat_7q3kq")
+text = "Controls
+"
+
+[node name="description" type="Button" parent="VBoxContainer" unique_id=1449907851]
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 35
+theme_override_styles/normal = SubResource("StyleBoxFlat_dfy5j")
+text = "Description
+"
+
+[node name="exit" type="Button" parent="VBoxContainer" unique_id=2118952592]
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 35
+theme_override_styles/normal = SubResource("StyleBoxFlat_7q3kq")
+text = "Exit
+"
+
+[node name="RichTextLabel" type="RichTextLabel" parent="." unique_id=1168401565]
+layout_mode = 0
+offset_left = 408.0
+offset_top = -56.0
+offset_right = 728.0
+offset_bottom = 200.0
+bbcode_enabled = true
+text = "[color=#000][font_size=60]
+  Parkour Adventure"
+
+[node name="RichTextLabel2" type="RichTextLabel" parent="." unique_id=2146980816]
+layout_mode = 0
+offset_left = 824.00006
+offset_top = 1.5258789e-05
+offset_right = 1144.0
+offset_bottom = 256.0
+rotation = 0.5375614
+bbcode_enabled = true
+text = "[color=#000][font_size=60]
+Hope in!!"
+
+[node name="RichTextLabel3" type="RichTextLabel" parent="." unique_id=1724549651]
+layout_mode = 0
+offset_left = 80.00001
+offset_top = -8.0
+offset_right = 399.99994
+offset_bottom = 248.0
+rotation = -0.34382987
+bbcode_enabled = true
+text = "[color=#000][font_size=60]
+Enjoyy!"
+
+[node name="RichTextLabel4" type="RichTextLabel" parent="." unique_id=1077535809]
+layout_mode = 0
+offset_left = 80.0
+offset_top = 96.0
+offset_right = 484.87354
+offset_bottom = 458.7442
+rotation = 6.2831855
+bbcode_enabled = true
+text = "[color=#000][font_size=40]
+Hope you like 
+   the game
+         ^_^"
+
+[connection signal="pressed" from="VBoxContainer/start" to="." method="_on_start_pressed"]
+[connection signal="pressed" from="VBoxContainer/controls" to="." method="_on_controls_pressed"]
+[connection signal="pressed" from="VBoxContainer/description" to="." method="_on_description_pressed"]
+[connection signal="pressed" from="VBoxContainer/exit" to="." method="_on_exit_pressed"]

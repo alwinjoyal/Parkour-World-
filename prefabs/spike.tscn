@@ -1,0 +1,19 @@
+[gd_scene format=3 uid="uid://c8mr4xug8sw0p"]
+
+[ext_resource type="Script" uid="uid://ch7e77qanahqi" path="res://scripts/spike.gd" id="1_rugcx"]
+[ext_resource type="Texture2D" uid="uid://brn7wah3h5dev" path="res://sprites/New Piskel.png" id="2_i4d64"]
+
+[node name="spike" type="Area2D" unique_id=733457559]
+script = ExtResource("1_rugcx")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1738055897]
+position = Vector2(-29.46875, 2.9999995)
+scale = Vector2(1.7306252, 1.1801172)
+texture = ExtResource("2_i4d64")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="." unique_id=1805319348]
+position = Vector2(0.9749985, 0)
+scale = Vector2(0.9492188, 1)
+polygon = PackedVector2Array(-64, 0, 0, 0, -32, -56)
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]
