@@ -250,4 +250,20 @@ theme_override_font_sizes/font_size = 35
 theme_override_styles/normal = SubResource("StyleBoxFlat_g2jcq")
 text = "Exit to Menu"
 
+[node name="restartgame" type="Button" parent="CanvasLayer" unique_id=592566346]
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = 224.0
+offset_top = -1.0
+offset_right = 522.5
+offset_bottom = 58.0
+grow_horizontal = 2
+size_flags_vertical = 3
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 35
+theme_override_styles/normal = SubResource("StyleBoxFlat_g2jcq")
+text = "Restart Game"
+
 [connection signal="pressed" from="CanvasLayer/exittomenu" to="." method="_on_game_menu_pressed"]
+[connection signal="pressed" from="CanvasLayer/restartgame" to="." method="_on_restartgame_pressed"]

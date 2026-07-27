@@ -172,7 +172,8 @@ offset_bottom = 256.0
 rotation = 0.5375614
 bbcode_enabled = true
 text = "[color=#000][font_size=60]
-Hope in!!"
+   Hop in 
+the game!!"
 
 [node name="RichTextLabel3" type="RichTextLabel" parent="." unique_id=1724549651]
 layout_mode = 0
@@ -187,16 +188,27 @@ Enjoyy!"
 
 [node name="RichTextLabel4" type="RichTextLabel" parent="." unique_id=1077535809]
 layout_mode = 0
-offset_left = 80.0
-offset_top = 96.0
-offset_right = 484.87354
-offset_bottom = 458.7442
+offset_left = 136.0
+offset_top = 112.0
+offset_right = 540.87354
+offset_bottom = 474.7442
 rotation = 6.2831855
 bbcode_enabled = true
 text = "[color=#000][font_size=40]
 Hope you like 
    the game
          ^_^"
+
+[node name="RichTextLabel5" type="RichTextLabel" parent="." unique_id=204253367]
+layout_mode = 0
+offset_left = 1008.0
+offset_top = -32.0
+offset_right = 1412.8735
+offset_bottom = 330.7442
+rotation = 6.2831855
+bbcode_enabled = true
+text = "[color=#000][font_size=30]
+By Alwin"
 
 [connection signal="pressed" from="VBoxContainer/start" to="." method="_on_start_pressed"]
 [connection signal="pressed" from="VBoxContainer/controls" to="." method="_on_controls_pressed"]
