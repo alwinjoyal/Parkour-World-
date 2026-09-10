@@ -1,9 +1,12 @@
 63f7b34db8d8cdea90c76aacccf841ec
 ::res://::1780956706
-export_presets.cfg::TextFile::-1::1782077194::0::1::::<><><>0<>0<><>::
+export_presets.cfg::TextFile::-1::1788396742::0::1::::<><><>0<>0<><>::
 icon.svg::CompressedTexture2D::7962304650231012564::1770069606::1770069608::1::::<><><>0<>0<>1a063b1bb9085d93bcc2137a49cb3847<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
+pause_menu.tscn::PackedScene::6157469171911963068::1787097486::0::1::::<><><>0<>0<><>::uid://cgb7oleik7on6::::res://sprites/Dead City Parallax BG [Free]/1920X1080/Ephemeral/Ephemeral_0.png<>uid://jgc5bea8rfif::::res://sprites/Dead City Parallax BG [Free]/1920X1080/Ephemeral/Ephemeral_1.png<>uid://ciwcxpr0vusc5::::res://sprites/Dead City Parallax BG [Free]/1920X1080/Ephemeral/Ephemeral_2.png<>uid://djjytxgu5i2qu::::res://sprites/Dead City Parallax BG [Free]/1920X1080/Ephemeral/Ephemeral_3.png<>uid://c7sxgxfiibqdd::::res://sprites/Dead City Parallax BG [Free]/1920X1080/Ephemeral/Ephemeral_4.png<>uid://bjsb7fekov4bm::::res://sprites/Dead City Parallax BG [Free]/1920X1080/Ephemeral/Ephemeral_5.png
 ::res://kenney_new-platformer-pack-1.1/::1770162912
 ::res://kenney_new-platformer-pack-1.1/Sounds/::1770162908
+bestuploadsever67aryan-jump-sound-531048.mp3::AudioStreamMP3::5506365665665496287::1785704534::1785704850::1::::<><><>0<>0<>c8abec71c25bece9fd5419fb780a6629<>res://.godot/imported/bestuploadsever67aryan-jump-sound-531048.mp3-ff40ffcf4421a210bf82a36be76314ad.mp3str::
+dragon-studio-violent-sword-slice-393848.mp3::AudioStreamMP3::4051206069561527889::1785704784::1785704850::1::::<><><>0<>0<>dc576bfc844835d64e3c4f881f77db0b<>res://.godot/imported/dragon-studio-violent-sword-slice-393848.mp3-6e1c195b06ed000bfe12726b3e444439.mp3str::
 sfx_bump.ogg::AudioStreamOggVorbis::5442507649905857003::1746504000::1770162908::1::::<><><>0<>0<>de3bd6241a106e74017b9d32b28937e0<>res://.godot/imported/sfx_bump.ogg-7cec81756348dd0bdb8680c62b788a73.oggvorbisstr::
 sfx_coin.ogg::AudioStreamOggVorbis::9141594285459945755::1746504000::1770162908::1::::<><><>0<>0<>f9de544c3e73cd3e718ee1ef7d00c1c1<>res://.godot/imported/sfx_coin.ogg-ed21c24714309c9e0139101280b27b02.oggvorbisstr::
 sfx_disappear.ogg::AudioStreamOggVorbis::5145803567243746270::1746504000::1770162908::1::::<><><>0<>0<>a1ebf31bd0ddfcbfed2f1f02305dd058<>res://.godot/imported/sfx_disappear.ogg-2d2867ccf36ca69ce8e310a1a4fdd3b9.oggvorbisstr::
@@ -1349,7 +1352,7 @@ water_top_low.svg::CompressedTexture2D::7066464751190509668::1746502196::1770162
 weight.svg::CompressedTexture2D::8735282897243461169::1746502196::1770162912::1::::<><><>0<>0<>470ad16f8e3e973d17beb1fa843c4b67<>res://.godot/imported/weight.svg-3611ec8efce560377bd39b52fa717dd2.ctex::
 window.svg::CompressedTexture2D::5234793881260497409::1746502196::1770162912::1::::<><><>0<>0<>8e16d10f7e4908e0877f3a6270e3e426<>res://.godot/imported/window.svg-e5831019679514697414d154ee8b5bf0.ctex::
 ::res://prefabs/::1770585552
-player.tscn::PackedScene::7758199364639115272::1785190274::0::1::::<><><>0<>0<><>::uid://1idqo4elgtsx::::res://scripts/player.gd<>uid://1fp5sn5gnoot::::res://sprites/Free/Main Characters/Virtual Guy/Idle (32x32).png<>uid://b6bs55nn3isr6::::res://sprites/Free/Main Characters/Virtual Guy/Jump (32x32).png<>uid://b2r25n7c4xds5::::res://sprites/Free/Main Characters/Virtual Guy/Run (32x32).png<>uid://clwydnkoud6q3::::res://kenney_new-platformer-pack-1.1/Sounds/sfx_jump.ogg<>uid://b5d6mkavvc2d8::::res://scenes/hud.tscn<>uid://dh3y2yxtsveim::::res://kenney_new-platformer-pack-1.1/Sounds/sfx_magic.ogg
+player.tscn::PackedScene::7758199364639115272::1787095834::0::1::::<><><>0<>0<><>::uid://1idqo4elgtsx::::res://scripts/player.gd<>uid://1fp5sn5gnoot::::res://sprites/Free/Main Characters/Virtual Guy/Idle (32x32).png<>uid://b6bs55nn3isr6::::res://sprites/Free/Main Characters/Virtual Guy/Jump (32x32).png<>uid://b2r25n7c4xds5::::res://sprites/Free/Main Characters/Virtual Guy/Run (32x32).png<>uid://ckplbj7qcfh48::::res://kenney_new-platformer-pack-1.1/Sounds/bestuploadsever67aryan-jump-sound-531048.mp3<>uid://b5d6mkavvc2d8::::res://scenes/hud.tscn<>uid://bxyo1irym1esn::::res://kenney_new-platformer-pack-1.1/Sounds/dragon-studio-violent-sword-slice-393848.mp3
 portal.tscn::PackedScene::3822711259013049491::1781976174::0::1::::<><><>0<>0<><>::uid://bb5u3btmkm875::::res://scripts/area_2d.gd<>uid://ctngyyi38vav7::::res://sprites/PORTAL BLUE-Sheet.png
 spike.tscn::PackedScene::7114930956640847001::1781976174::0::1::::<><><>0<>0<><>::uid://ch7e77qanahqi::::res://scripts/spike.gd<>uid://brn7wah3h5dev::::res://sprites/New Piskel.png
 ::res://scenes/::1770585960
@@ -1385,7 +1388,7 @@ goal.gd::GDScript::598961345720187583::1782016804::0::1::::<>Control<><>0<>0<><>
 hud.gd::GDScript::4024336864873737279::1782013732::0::1::::HUD<>Control<><>0<>0<><>::
 level_1.gd::GDScript::6747290263691062038::1782023454::0::1::::<>Node2D<><>0<>0<><>::
 mainmenu.gd::GDScript::8721107617684402611::1782016584::0::1::::<>Control<><>0<>0<><>::
-player.gd::GDScript::1841636460625027815::1784584048::0::1::::<>CharacterBody2D<><>0<>0<><>::
+player.gd::GDScript::1841636460625027815::1787095822::0::1::::<>CharacterBody2D<><>0<>0<><>::
 portal.gd::GDScript::7346709968759762908::1770702084::0::1::::<>Area2D<><>0<>0<><>::
 portal_1.gd::GDScript::6674392935872860661::1770710974::0::1::::<>Area2D<><>0<>0<><>::
 portal_2.gd::GDScript::6989031376065354241::1770711502::0::1::::<>Area2D<><>0<>0<><>::

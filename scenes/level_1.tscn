@@ -642,7 +642,7 @@ offset_top = 280.0
 offset_right = 385.0
 offset_bottom = 454.0
 bbcode_enabled = true
-text = "[color=#000][font_size=29](W / <- = left
+text = "[color=#000][font_size=29](A / <- = left
 (D / -> = right
 Space to jumb"
 
