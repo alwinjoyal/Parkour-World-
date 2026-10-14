@@ -11,6 +11,7 @@
 [ext_resource type="Texture2D" uid="uid://c7sxgxfiibqdd" path="res://sprites/Dead City Parallax BG [Free]/1920X1080/Ephemeral/Ephemeral_4.png" id="5_2aecg"]
 [ext_resource type="PackedScene" uid="uid://pnctiu10too" path="res://scenes/portal_1.tscn" id="5_4nkto"]
 [ext_resource type="Texture2D" uid="uid://bjsb7fekov4bm" path="res://sprites/Dead City Parallax BG [Free]/1920X1080/Ephemeral/Ephemeral_5.png" id="6_6dial"]
+[ext_resource type="PackedScene" uid="uid://cqiso3v0l1y3j" path="res://pause_menu_1.tscn" id="12_go7sj"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_4nkto"]
 texture = ExtResource("4_5xbjy")
@@ -676,3 +677,7 @@ text = "[color=#000][font_size=29] Tutorial
 
 [node name="spike" parent="." unique_id=733457559 instance=ExtResource("3_4n2o2")]
 position = Vector2(545, 511)
+
+[node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=1994039726]
+
+[node name="pause_menu_1" parent="CanvasLayer" unique_id=1719661902 instance=ExtResource("12_go7sj")]

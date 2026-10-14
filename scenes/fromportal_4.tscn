@@ -10,6 +10,7 @@
 [ext_resource type="PackedScene" uid="uid://c8mr4xug8sw0p" path="res://prefabs/spike.tscn" id="5_66ui1"]
 [ext_resource type="Texture2D" uid="uid://c7sxgxfiibqdd" path="res://sprites/Dead City Parallax BG [Free]/1920X1080/Ephemeral/Ephemeral_4.png" id="5_fm7kw"]
 [ext_resource type="Texture2D" uid="uid://bjsb7fekov4bm" path="res://sprites/Dead City Parallax BG [Free]/1920X1080/Ephemeral/Ephemeral_5.png" id="6_o7edp"]
+[ext_resource type="PackedScene" uid="uid://cqiso3v0l1y3j" path="res://pause_menu_1.tscn" id="11_meva2"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_fobjx"]
 texture = ExtResource("2_hv6v5")
@@ -711,3 +712,7 @@ position = Vector2(2429, 385)
 
 [node name="spike9" parent="." unique_id=848569351 instance=ExtResource("5_66ui1")]
 position = Vector2(3022, 321)
+
+[node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=1180791135]
+
+[node name="pause_menu_1" parent="CanvasLayer" unique_id=1719661902 instance=ExtResource("11_meva2")]

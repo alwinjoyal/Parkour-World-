@@ -57,10 +57,5 @@ func respawn():
 	deathsound.play() 
 	position = start_position
 
-
-func _on_game_menu_pressed() -> void:
-	get_tree().change_scene_to_file("res://scenes/mainmenu.tscn")
-
-
-func _on_restartgame_pressed() -> void:
-	get_tree().change_scene_to_file("res://scenes/level_1.tscn")
+func _on_exittomenu_pressed() -> void:
+	get_tree().change_scene_to_file("res://pause_menu_1.tscn")
